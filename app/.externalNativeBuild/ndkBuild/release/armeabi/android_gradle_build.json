@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "D:\\CustomizedCameraPreview\\app\\src\\main\\java\\jni\\Android.mk",
+    "D:\\CustomizedCameraPreview\\app\\src\\main\\java\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\l\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\CustomizedCameraPreview\\app\\src\\main\\java\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\CustomizedCameraPreview\\app\\src\\main\\java\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dD:/CustomizedCameraPreview/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\CustomizedCameraPreview\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "main-jni-release-armeabi": {
+      "buildCommand": "D:\\l\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\CustomizedCameraPreview\\app\\src\\main\\java\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\CustomizedCameraPreview\\app\\src\\main\\java\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dD:/CustomizedCameraPreview/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\CustomizedCameraPreview\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/CustomizedCameraPreview/app/build/intermediates/ndkBuild/release/obj/local/armeabi/libmain-jni.so",
+      "toolchain": "toolchain-armeabi",
+      "abi": "armeabi",
+      "artifactName": "main-jni",
+      "files": [
+        {
+          "src": "D:\\CustomizedCameraPreview\\app\\src\\main\\java\\jni\\main_jni.cpp",
+          "flags": "\"-gcc-toolchain\" \"D:/l/Android/sdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv5te-none-linux-androideabi\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-ID:/CustomizedCameraPreview/app/src/main/java/jni\" \"-ID:/l/Android/sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\" \"-ID:/l/Android/sdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include\" \"-ID:/CustomizedCameraPreview/app/src/main/java/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-frtti\" \"-std\u003dgnu++11\" \"-D__STDC_LIMIT_MACROS\" \"--sysroot\" \"D:/l/Android/sdk/ndk-bundle/build//../platforms/android-14/arch-arm\""
+        }
+      ],
+      "output": "D:\\CustomizedCameraPreview\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi\\libmain-jni.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi": {
+      "cppCompilerExecutable": "D:\\l\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
